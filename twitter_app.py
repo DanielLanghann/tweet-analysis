@@ -42,6 +42,7 @@ app.layout = html.Div(
                             for x in sorted(df["name"].unique())
                         ],
                         value=["taylorswift13", "cristiano", "jtimberlake"],
+                        style={"color": "green"}
                     ),
                     className="three columns",
                 ),
@@ -51,6 +52,7 @@ app.layout = html.Div(
                         children="Click here to Visit Twitter",
                         href="https://twitter.com/explore",
                         target="_blank",
+                        style={"color": "red", "backgroundColor": "yellow"}
                     ),
                     className="two columns",
                 ),
